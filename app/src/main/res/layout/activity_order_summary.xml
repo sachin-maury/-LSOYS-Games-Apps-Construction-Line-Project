@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#66C4D1"
+    android:padding="16dp"
+    tools:ignore="VisualLintBounds">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/order_summary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"/>
+
+    <ListView
+        android:id="@+id/listViewOrderSummary"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"/>
+
+    <TextView
+        android:id="@+id/tvTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_price_rs_0"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:paddingTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnConfirmOrder"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="@string/confirm_order1"
+        android:layout_marginStart="80dp"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@drawable/gradient_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_which_one_you_want"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="40dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBuyLand"
+        style="@style/CustomButton"
+        android:text="@string/buy_land2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBuyMaterials"
+        style="@style/CustomButton"
+        android:text="@string/buy_materials2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBookDesigner"
+        style="@style/CustomButton"
+        android:text="@string/book_interior_designer2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSellFlats"
+        style="@style/CustomButton"
+        android:text="@string/sell_flats2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCart"
+        style="@style/CustomButton"
+        android:text="@string/view_cart_order1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCheckout"
+        style="@style/CustomButton"
+        android:text="@string/checkout_order2" />
+
+</LinearLayout>

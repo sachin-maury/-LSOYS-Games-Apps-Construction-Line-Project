@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg1"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/book_meeting_with_designer"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etDesignerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:background="@drawable/edit_text_shape"
+        android:minHeight="48dp"
+        android:hint="@string/enter_your_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etSelectedDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:background="@drawable/edit_text_shape"
+        android:minHeight="48dp"
+        android:hint="@string/select_date"
+        android:focusable="false"
+        android:clickable="true"
+        android:paddingTop="10dp" />
+
+    <Button
+        android:id="@+id/btnSelectDate"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="60dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:padding="10dp"
+        android:text="@string/select_date1"
+        android:textAllCaps="false"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnBookMeeting"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="60dp"
+        android:textColor="@color/black"
+        android:text="@string/book_meeting"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/viewMeeting"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:layout_marginStart="60dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:text="@string/view_meeting"/>
+</LinearLayout>
